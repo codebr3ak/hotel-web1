@@ -11,9 +11,10 @@
 .banner h1{
     color: white;
     position: absolute;
-    top: 20%;
+    top: 15%;
     left: 17em;
     right: 17em;
+    font-size: 38px;
 }
 
 .part2{
@@ -35,13 +36,14 @@
 }
 
 article h2{
-    color: #F63232;
+    color: #00303f;
     font-size: 48px;
   }
 
 article p{
     line-height: 2em;
-    color: #4B4B4B;
+    color: #222222;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 img{
@@ -72,3 +74,7 @@ img{
     margin: 80px auto;
     box-sizing: border-box;
 }
+
+.images li:hover{
+    top: -4px;
+  }
